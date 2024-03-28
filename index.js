@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const cors = require('cors'); // Importar cors
-const agendaRoutes = require('./routes/agendaRoutes');
+const agendaRoutes = require('./src/routes/agendaRoutes');
 
 require('dotenv').config();
 
